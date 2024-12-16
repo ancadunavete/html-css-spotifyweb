@@ -12,17 +12,35 @@ html {
 }
 
  body {
-    background-color: var(--color-1)
+    background-color: var(--color-1);
+    color: white
  }
 
  .layout-top {
+    display: flex;
     height: 90vh;
-    border: 1px solid lightgreen;
+    border: 3px solid lightgreen;
  }
 
  .layout-bottom {
+    display: flex;
     height: 10vh;
-    border: 1px solid lightcoral;
+    border: 3px solid lightcoral;
  }
 
- 
+ .layout__sidebar {
+    flex-basis: 10%;
+    border: 3px solid lightcyan;
+ }
+
+ .layout__main {
+    flex-basis: 90%;
+    border: 3px solid lightsalmon;
+ }
+
+ .layout__cta {
+    border: 3px solid lightseagreen;
+    padding: 20px;
+    text-align: right;
+    text-transform: uppercase;
+ }
