@@ -19,27 +19,31 @@ html {
  .layout-top {
     display: flex;
     height: 90vh;
-    border: 3px solid lightgreen;
+    /* border: 3px solid lightgreen; */
  }
 
  .layout-bottom {
     display: flex;
     height: 10vh;
-    border: 3px solid lightcoral;
+    /* border: 3px solid lightcoral; */
  }
 
  .layout__sidebar {
     flex-basis: 10%;
-    border: 3px solid lightcyan;
+    /* border: 3px solid lightcyan; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-color: var(--color-4);
  }
 
  .layout__main {
     flex-basis: 90%;
-    border: 3px solid lightsalmon;
+    /* border: 3px solid lightsalmon; */
  }
 
  .layout__cta {
-    border: 3px solid lightseagreen;
+    /* border: 3px solid lightseagreen; */
     padding: 20px;
     text-align: right;
     text-transform: uppercase;
@@ -47,4 +51,37 @@ html {
     top: 0;
     z-index: 1;
     background-color: var(--color-1);
+    font-size: 0.8rem;
  }
+
+ .btn {
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+ }
+
+ .btn--pill {
+    color: white;
+ 
+ }
+
+ .layout__sidebar--top {
+    border: 3px solid lightcyan;
+    height: calc(100% - 100px);
+ }
+
+ .layout__sidebar--bottom {
+    border: 3px solid lightcyan;
+ }
+
+ .layout-bottom {
+    background-color: var(--color-5);
+ }
+
+ .layout__sidebar--logos img[alt$="big"] {
+    display: none;
+ }
+
+
+
