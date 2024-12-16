@@ -1,5 +1,5 @@
 :root {
-    --color-1: #090b12;
+    --color-1: rgba(9, 11, 18, 0.5);
     --color-2: #000000;
     --color-3: #141922;
     --color-4: #282828;
@@ -12,7 +12,7 @@ html {
 }
 
  body {
-    background-color: var(--color-1);
+    background-color: var(--color-3);
     color: white
  }
 
@@ -43,4 +43,8 @@ html {
     padding: 20px;
     text-align: right;
     text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--color-1);
  }
