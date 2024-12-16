@@ -1,3 +1,28 @@
-html{
+:root {
+    --color-1: #090b12;
+    --color-2: #000000;
+    --color-3: #141922;
+    --color-4: #282828;
+    --color-5: #797b81;
+    --color-6: #adff2e;
+}
+
+html {
     font-family: sans-serif;
 }
+
+ body {
+    background-color: var(--color-1)
+ }
+
+ .layout-top {
+    height: 90vh;
+    border: 1px solid lightgreen;
+ }
+
+ .layout-bottom {
+    height: 10vh;
+    border: 1px solid lightcoral;
+ }
+
+ 
